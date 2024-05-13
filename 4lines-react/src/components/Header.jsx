@@ -1,9 +1,15 @@
+import { useNavigate } from 'react-router-dom';
+
 export default function Header(){
+    const irPara= useNavigate();
+    const handleClick = () => {
+      irPara('/');
+    };
     return(
         <header>
             <div className="flex-box">
                 <div>
-                    <img className="logo-header" src="4lines.png" alt="" />
+                    <button className='logo-button' onClick={handleClick}><img className="logo-header" src="4lines.png" alt="" /></button>
                 </div>
                 <div>
                     <img className="perfil" src="perfil.png" alt="" />

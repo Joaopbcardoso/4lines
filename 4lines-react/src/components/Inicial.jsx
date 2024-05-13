@@ -1,4 +1,22 @@
+import { useNavigate } from 'react-router-dom';
+
 export default function Inicial(){
+    const irPara= useNavigate();
+    const paraFutebol = () => {
+        irPara('/Futebol');
+      };
+      const paraBasquete = () => {
+        irPara('/Basquete');
+      };
+      const paraJogos = () => {
+        irPara('/Jogos');
+      };
+      const paraNoticias = () => {
+        irPara('/Noticias');
+      };
+    const paraLoja = () => {
+      irPara('/Loja');
+    };
     return(
         <main>
             <div className="info-principal">
@@ -11,11 +29,11 @@ export default function Inicial(){
                 </div>
             </div>
             <div className="navbar">
-                <img className="futebol-button" src="bola.png" alt="" />
-                <img className="basquete-button" src="basquete.png" alt="" />
-                <img className="" src="apito.png" alt="" />
-                <img src="news.png" alt="" />
-                <img src="loja.png" alt="" />
+                <button onClick={paraFutebol}><img className="futebol-button" src="bola.png" alt="" /></button>
+                <button onClick={paraBasquete}><img className="basquete-button" src="basquete.png" alt="" /></button>
+                <button onClick={paraJogos}><img className="" src="apito.png" alt="" /></button>
+                <button onClick={paraNoticias}><img src="news.png" alt="" /></button>
+                <button onClick={paraLoja}><img src="loja.png" alt="" /></button>
             </div>
         </main>
         

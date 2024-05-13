@@ -8,7 +8,11 @@ body{
 
 header{
     background-color: #FFF;
-    
+}
+
+.logo-button{
+    border: 0;
+    cursor: pointer;
 }
 
 .flex-box{
@@ -49,13 +53,19 @@ header{
     display: flex;
     justify-content: center;
 }
-.navbar img{
-    width: 150px;
-    height: 150px;
+
+.navbar button{
     background-color: #FFF;
     margin: 30px;
     border-radius: 100%;
-    object-fit: cover;
+    border: 0;
+    cursor: pointer;
+}
+
+.navbar button img{
+    width: 150px;
+    height: 150px;
     padding: 5px;
+    
 }
 
