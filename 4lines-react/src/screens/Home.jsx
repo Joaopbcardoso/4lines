@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import Header from "../components/Header";
 import Inicial from "../components/Inicial";
+import Footer from '../components/Footer';
 
 export default function Home(){
     const irPara= useNavigate();
@@ -11,6 +12,7 @@ export default function Home(){
         <>
         <Header/>
         <Inicial/>
+        <Footer/>
         </>
     )
 }
