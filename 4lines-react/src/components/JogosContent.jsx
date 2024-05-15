@@ -1,6 +1,6 @@
 export default function JogosContent(){
     return(
-        <>
+        <main>
             <div className="info-jogo">
                 <div>
                     <h2 className="tabela-brasileirao">Tabela Brasileirão</h2>
@@ -10,6 +10,6 @@ export default function JogosContent(){
                     <img className="partidas" src="partidas.png" alt="" />
                 </div>
             </div>
-        </>
+        </main>
     )
 }
