@@ -11,6 +11,18 @@ header{
     background-color: #FFF;
 }
 
+.addtime{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 5px;
+    position: absolute;
+    left: 350px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
 .logo-button{
     border: 0;
     cursor: pointer;
@@ -97,8 +109,8 @@ header{
 }
 
 .partidas{
-    margin:150px 250px;
-    width: 700px;
+    margin:150px 150px;
+    width: 400px;
 }
 
 .copyright{

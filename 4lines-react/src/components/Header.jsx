@@ -9,8 +9,9 @@ export default function Header(){
         <header>
             <div className="flex-box">
                 <div>
-                    <button className='logo-button' onClick={handleClick}><img className="logo-header" src="4lines.png" alt="" /></button>
+                    <button className='logo-button' onClick={handleClick}><img className="logo-header" src="4lines.png" alt="" /></button>    
                 </div>
+                <button className='addtime'>+</button>
                 <div>
                     <img className="perfil" src="perfil.png" alt="" />
                 </div>
