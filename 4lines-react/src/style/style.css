@@ -61,8 +61,8 @@ header{
 }
 
 .tabela-title{
-    margin: 30px 70px;
-    font-size: 40px;
+    margin: 5px 70px;
+    font-size: 25px;
     background-color: #FFF;
     border-radius: 50px;
     text-align: center;
@@ -74,7 +74,7 @@ header{
 }
 
 .noticia{
-    margin: 115px 40px;
+    margin: 45px 40px;
     width: 90%;
     align-items: center;
 }
