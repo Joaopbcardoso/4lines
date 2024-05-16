@@ -3,7 +3,10 @@ export default function JogosContent(){
         <main>
             <div className="info-jogo">
                 <div>
-                    <h2 className="tabela-brasileirao">Tabela Brasileirão</h2>
+                <select name="campeonato" id="campeonato">
+                <option value="brasileirao">Brasileirão Série A</option>
+                <option value=""></option>
+            </select>
                     <img className="brasileirao" src="brasileirao.png" alt="" />
                 </div>
                 <div>
