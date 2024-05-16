@@ -135,9 +135,6 @@ select{
     color: #FFF;
 }
 
-#calendario{
-    margin-left: 70px;
-}
 
 #calendario img{
     width: 85%;
@@ -200,6 +197,10 @@ select{
 .noticias-horizontal img{
     margin: 10px 60px;
     width: 350px;
+}
+
+#foto-cima{
+    margin: 0 60px;
 }
 
 .formacao-noticias{

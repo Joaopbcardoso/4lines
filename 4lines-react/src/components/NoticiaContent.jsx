@@ -7,8 +7,8 @@ export default function NoticiaContent(){
                         <img src="noticia-cassio.png" alt="" />
                     </section>
                     <section className="noticias-horizontal">
-                        <img src="noticia-nikola.png" alt="" />
-                        <img src="noticia-eliminacao.png" alt="" />
+                        <img id="foto-cima" src="noticia-nikola.png" alt="" />
+                        <img  src="noticia-eliminacao.png" alt="" />
                     </section>
                 </div>
                 <div>
