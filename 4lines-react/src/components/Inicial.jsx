@@ -21,7 +21,7 @@ export default function Inicial(){
         <main>
             <div className="info-principal">
                 <div className="campeonato">
-                    <h2 className="tabela-title">Tabela</h2>
+                    <h2 className="tabela-title">Placares</h2>
                     <img className="tabela" src="tabela.png" alt="" />
                 </div>
                 <div noticia-principal>

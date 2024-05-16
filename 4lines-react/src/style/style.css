@@ -248,5 +248,41 @@ footer img{
     width: 500px;
 }
 
-
-
+@media screen and (max-width: 900px){
+    header{
+        width: 60%;
+    }
+    .logo-header{
+        width: 100px;
+    }
+    .perfil{
+        width: 60px;
+    }
+    .addtime{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+    main{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar{
+    
+        flex-direction: column;
+        justify-items: center;
+    }
+    .navbar button{
+        height: 100px;
+        width: 100px;
+    }
+    .navbar button img{
+        width: 90px;
+        height: 90px;
+        padding: 5px;
+        
+    }
+}
