@@ -25,17 +25,17 @@ export default function FutebolContent(){
             <section className="info">
             </section>
             <section className="info">
-                <section className="info-content">
+                <section className="info-content" id="calendario">
                     <h2>Calendário</h2>
                     <img src="calendario.png" alt="" />
                 </section>
-                <section className="info-content">
+                <section className="info-content" id="cartoes">
                     <h2>Cartões</h2>
                     <img src="cartoes.png" alt="" />
                 </section>
 
             </section>
-            <section className="info">                
+            <section className="info" id="transferencia">                
                 <section className="info-content">
                     <h2>Últimas Transferências</h2>
                     <img src="transferencia.png" alt="" />

@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    gap: 0;
 }
 body{
     background-color: #084887;
@@ -52,7 +53,8 @@ header{
 
 .noticia{
     margin: 115px 40px;
-    width: 1100px;
+    width: 90%;
+    align-items: center;
 }
 
 .navbar{
@@ -125,7 +127,7 @@ select{
 
 .info{
     display: flex;
-    justify-content: center;
+    margin-left: 70px;
 }
 
 .info-content{
@@ -133,14 +135,35 @@ select{
     color: #FFF;
 }
 
+#calendario{
+    margin-left: 70px;
+}
+
+#calendario img{
+    width: 85%;
+}
+
+#cartoes img{
+    width: 98%;
+}
+
+#transferencia img{
+    width: 90%;
+}
+
 .melhores{
-    margin: 10px 70px;
+    margin: 10px 0 0 70px;
     display: flex;
     object-fit: cover;
 }
 .melhores img{
+    justify-items: flex-end;
     height: 250px;
     width: 250px;
+}
+
+.coluna-noticia img{
+    justify-content: flex-start;
 }
 
 .proximos{

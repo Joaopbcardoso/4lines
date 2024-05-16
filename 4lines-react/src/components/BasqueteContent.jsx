@@ -28,7 +28,7 @@ export default function BasqueteContent(){
                 </section>
                 </div>  
             </div>
-            <div>
+            <div className="coluna-noticia">
                 <section className="noticia-basquete">
                     <h2>Notícias</h2>
                     <img src="noticia-atlanta.png" alt="" />
