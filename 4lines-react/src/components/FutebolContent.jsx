@@ -5,19 +5,24 @@ export default function FutebolContent(){
                 <option value="brasileirao">Brasileirão Série A</option>
                 <option value=""></option>
             </select>
-            <section className="info">
-                <section className="info-content">
-                    <h2>G5</h2>
-                    <img src="g5.png" alt="" />
-                </section>
-                <section className="info-content">
-                    <h2>Artilharia</h2>
-                    <img src="artilharia.png" alt="" />
-                </section>
+            <div className="info-linha">                
+                <div className="melhores">
+                    <section className="info-content">
+                        <h2>G5</h2>
+                        <img src="g5.png" alt="" />
+                    </section>
+                    <section className="info-content">
+                        <h2>Artilharia</h2>
+                        <img src="artilharia.png" alt="" />
+                    </section>
+                </div>            
                 <section className="info-content">
                     <h2>Lesões</h2>
                     <img src="lesoes.png" alt="" />
                 </section>
+            </div>
+
+            <section className="info">
             </section>
             <section className="info">
                 <section className="info-content">
