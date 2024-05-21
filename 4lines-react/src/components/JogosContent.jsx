@@ -1,3 +1,5 @@
+import TabelaBrasileirao from "../components/TabelaBrasileirao"
+
 export default function JogosContent(){
     return(
         <main>
@@ -7,7 +9,7 @@ export default function JogosContent(){
                 <option value="brasileirao">Brasileirão Série A</option>
                 <option value=""></option>
             </select>
-                    <img className="brasileirao" src="brasileirao.png" alt="" />
+            <TabelaBrasileirao/>
                 </div>
                 <div>
                     <img className="partidas" src="partidas.png" alt="" />

@@ -250,6 +250,25 @@ footer{
 footer img{
     width: 500px;
 }
+.Filtros button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.Galeria-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 80px;
+    justify-content: center;
+    gap: 10px;
+    && img{
+        object-fit: cover;
+        width: 250px;
+        height: 250px;
+        
+    }
+}
 
 @media screen and (max-width: 900px){
     header{
@@ -288,3 +307,42 @@ footer img{
         padding: 5px;
     }
 }
+
+
+
+.tabela-brasileirao {
+    width: 600px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    border: 2px solid #ddd;
+  }
+  
+  .tabela-brasileirao th,
+  .tabela-brasileirao td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .tabela-brasileirao th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .tabela-brasileirao tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabela-brasileirao tbody tr {
+    background-color: #FFF;
+  }
+
+  .tabela-brasileirao tbody tr:hover{
+    background-color: #F58A07;
+  }
+  
+
+
+  
+ 
+  

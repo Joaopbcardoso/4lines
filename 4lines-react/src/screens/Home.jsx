@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Inicial from "../components/Inicial";
 import Footer from '../components/Footer';
 
+
 export default function Home(){
     const irPara= useNavigate();
     const handleClick = () => {
@@ -11,8 +12,8 @@ export default function Home(){
     return(
         <>
         <Header/>
-          <Inicial/>
+        <Inicial/>
         <Footer/>
-        </>
+        </> 
     )
 }
