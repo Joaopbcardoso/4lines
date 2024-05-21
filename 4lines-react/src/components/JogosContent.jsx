@@ -1,4 +1,4 @@
-import TabelaBrasileirao from "../components/TabelaBrasileirao"
+import TabelaBrasileirao from "../components/TabelaBrasileirao";
 
 export default function JogosContent(){
     return(

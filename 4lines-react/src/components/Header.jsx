@@ -5,15 +5,18 @@ export default function Header(){
     const handleClick = () => {
       irPara('/');
     };
+    const ParaPerfil = () => {
+      irPara('/Perfil');
+    };
     return(
         <header>
             <div className="flex-box">
                 <div>
-                    <button className='logo-button' onClick={handleClick}><img className="logo-header" src="4lines.png" alt="" /></button>    
+                    <button className='header-button' onClick={handleClick}><img className="logo-header" src="4lines.png" alt="" /></button>    
                 </div>
                 <button className='addtime'>+</button>
                 <div>
-                    <img className="perfil" src="perfil.png" alt="" />
+                    <button className='header-button' onClick={ParaPerfil}><img className="perfil" src="perfil.png" alt="" /></button>
                 </div>
             </div>
         </header>

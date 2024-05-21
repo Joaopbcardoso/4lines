@@ -6,6 +6,7 @@ import Futebol from './screens/Futebol';
 import Basquete from './screens/Basquete';
 import Jogos from './screens/Jogos';
 import Noticias from './screens/Noticias';
+import Perfil from './screens/Perfil';
 
 function App() {
   // Retorna a estrutura de roteamento usando o BrowserRouter
@@ -19,7 +20,7 @@ function App() {
         <Route path="/Jogos" element={<Jogos/>}/> 
         <Route path="/Noticias" element={<Noticias/>}/>                       
         <Route path="/loja" element={<Loja/>} />
-        
+        <Route path="/Perfil" element={<Perfil/>} />
       </Routes>
     </Router>
   );
