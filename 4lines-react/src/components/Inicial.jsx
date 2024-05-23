@@ -22,7 +22,7 @@ export default function Inicial(){
             <div className="info-principal">
                 <div className="campeonato">
                     <h2 className="tabela-title">Placares</h2>
-                    <img className="tabela" src="tabela.png" alt="" />
+                    <GameTable />
                 </div>
                 <div noticia-principal>
                     <img className="noticia" src="noticia-jamal.png" alt="" />
