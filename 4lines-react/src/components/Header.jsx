@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Header(){
     const irPara= useNavigate();
     const handleClick = () => {
-      irPara('/');
+      irPara('/Home');
     };
     const ParaPerfil = () => {
       irPara('/Perfil');

@@ -11,8 +11,6 @@ export default function Perfil(){
             nome={"Heitor"}
             time={"figueirense.png"}
             foto={"macaco.png"}
-            
-            
             />
             <Footer/>
         </>

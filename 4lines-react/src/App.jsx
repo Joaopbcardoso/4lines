@@ -8,6 +8,7 @@ import Jogos from './screens/Jogos';
 import Noticias from './screens/Noticias';
 import Perfil from './screens/Perfil';
 import Cadastro from './screens/Cadastro';
+import Login from './screens/Login';
 
 function App() {
   // Retorna a estrutura de roteamento usando o BrowserRouter
@@ -15,7 +16,8 @@ function App() {
     <Router>
       {/* Define as rotas usando o componente Routes */}
       <Routes>
-        <Route path="/" element={<Cadastro />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/Cadastro" element={<Cadastro />} />
         <Route path="/Home" element={<Home />}  />
         <Route path="/Futebol" element={<Futebol/>}/>
         <Route path="/Basquete" element={<Basquete/>}/>

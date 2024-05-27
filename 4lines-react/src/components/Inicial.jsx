@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import GameTable from './GameTable';
 
 export default function Inicial(){
     const irPara= useNavigate();

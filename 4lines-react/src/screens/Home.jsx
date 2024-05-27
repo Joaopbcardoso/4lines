@@ -5,10 +5,7 @@ import Footer from '../components/Footer';
 
 
 export default function Home(){
-    const irPara= useNavigate();
-    const handleClick = () => {
-      irPara('/Loja');
-    };
+
     return(
         <>
         <Header/>

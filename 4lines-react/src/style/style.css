@@ -13,6 +13,26 @@ header{
     margin-bottom: 2px;
 }
 
+.cadastro-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro{
+    width: 400px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cadastro img{
+    width: 200px;
+}
+
 .addtime{
     border: solid 2px #084887;
     color: #084887;
