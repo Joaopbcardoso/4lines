@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './screens/Home'
 import './style/style.css'
+import './style/styleAdm.css'
 import Loja from './screens/Loja';
 import Futebol from './screens/Futebol';
 import Basquete from './screens/Basquete';
@@ -9,6 +10,8 @@ import Noticias from './screens/Noticias';
 import Perfil from './screens/Perfil';
 import Cadastro from './screens/Cadastro';
 import Login from './screens/Login';
+import HomeAdm from './screensAdm/HomeAdm';
+import LoginAdm from './screensAdm/LoginAdm';
 
 function App() {
   // Retorna a estrutura de roteamento usando o BrowserRouter
@@ -17,8 +20,10 @@ function App() {
       {/* Define as rotas usando o componente Routes */}
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/log-adm" element={<LoginAdm />} />
         <Route path="/Cadastro" element={<Cadastro />} />
         <Route path="/Home" element={<Home />}  />
+        <Route path="/HomeAdm" element={<HomeAdm />}  />
         <Route path="/Futebol" element={<Futebol/>}/>
         <Route path="/Basquete" element={<Basquete/>}/>
         <Route path="/Jogos" element={<Jogos/>}/> 

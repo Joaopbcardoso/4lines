@@ -1,9 +1,9 @@
 import Logar from "../components/Logar";
 
-export default function Login(){
+export default function LoginAdm(){
     return(
         <Logar 
-        loginType = {"/Home"}
+        loginType={"/HomeAdm"}
         />
     )
 }
