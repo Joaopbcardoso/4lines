@@ -1,7 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 
-export default function Logar({loginType}){
+export default function Logar({loginType, cadastroType}){
     const irPara = useNavigate();
+    const cadastrar = `${cadastroType}`
     const logar = () => {
       irPara(`${loginType}`);
     };
@@ -14,7 +15,7 @@ export default function Logar({loginType}){
                     <input required type="user" name="user" />
                     <label htmlFor="senha">Senha:</label>
                     <input type="password"  required/>
-                    <p>Não tem uma conta? <a href="cadastro">Cadastre-se</a></p>
+                    <p>Não tem uma conta? <a href={cadastrar}>Cadastre-se</a></p>
                     <input type="submit" value={"Login"} className='submit'/>
                 </form>
                 

@@ -12,6 +12,7 @@ import Cadastro from './screens/Cadastro';
 import Login from './screens/Login';
 import HomeAdm from './screensAdm/HomeAdm';
 import LoginAdm from './screensAdm/LoginAdm';
+import CadastroAdm from './screensAdm/CadastroAdm';
 
 function App() {
   // Retorna a estrutura de roteamento usando o BrowserRouter
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/log-adm" element={<LoginAdm />} />
         <Route path="/Cadastro" element={<Cadastro />} />
+        <Route path="/CadastroAdm" element={<CadastroAdm />} />
         <Route path="/Home" element={<Home />}  />
         <Route path="/HomeAdm" element={<HomeAdm />}  />
         <Route path="/Futebol" element={<Futebol/>}/>
