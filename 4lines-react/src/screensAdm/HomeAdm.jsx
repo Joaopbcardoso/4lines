@@ -1,5 +1,7 @@
+import Header_adm from "../componentes-adm/Header";
+
 export default function HomeAdm(){
     return(
-        <h1>ADM</h1>
+        <Header_adm/>
     )
 }

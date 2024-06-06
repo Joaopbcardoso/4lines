@@ -106,7 +106,7 @@ header{
 .header-button{
     border: 0;
     cursor: pointer;
-    background-color: #FFF;
+    background-color:transparent;
 }
 
 .header-button:disabled{
