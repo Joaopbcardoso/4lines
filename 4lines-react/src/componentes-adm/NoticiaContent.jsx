@@ -11,6 +11,7 @@ export default function NoticiaContent_adm(){
                         <img  src="noticia-eliminacao.png" alt="" />
                     </section>
                 </div>
+                
                 <div>
                     <section className="noticia-lateral">
                         <img src="noticia-guardiola.png" alt="" />
