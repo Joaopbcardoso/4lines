@@ -15,7 +15,7 @@ export default function Header_adm(){
                     <button className='header-button' onClick={handleClick}><img className="logo-header" src="4lines.png" alt="" /></button>    
                 </div>
                 <button className='addtime-adm'>+</button>
-                <div>
+                <div className='nav-editor'>
                     <button className='custom-btn btn-14'>Editar</button>
                     <button className='header-button' onClick={ParaPerfil}><img className="perfil" src="perfil.png" alt="" /></button>
                 </div>

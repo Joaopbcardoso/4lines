@@ -8,6 +8,11 @@
 
 .adm-header{
     background-color: orange;
+    
+}
+.nav-editor{
+    display: flex;
+    align-items: center;
 }
 
 .addtime-adm{
