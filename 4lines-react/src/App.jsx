@@ -13,6 +13,7 @@ import Login from './screens/Login';
 import HomeAdm from './screensAdm/HomeAdm';
 import LoginAdm from './screensAdm/LoginAdm';
 import CadastroAdm from './screensAdm/CadastroAdm';
+import Noticias_adm from './screensAdm/Noticias_adm';
 
 function App() {
   // Retorna a estrutura de roteamento usando o BrowserRouter
@@ -32,6 +33,7 @@ function App() {
         <Route path="/Noticias" element={<Noticias/>}/>                       
         <Route path="/loja" element={<Loja/>} />
         <Route path="/Perfil" element={<Perfil/>} />
+        <Route path="/Noticias_adm" element={<Noticias_adm/>} />
       </Routes>
     </Router>
   );

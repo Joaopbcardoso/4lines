@@ -14,7 +14,7 @@ export default function Inicial_adm(){
         irPara('/Jogos');
       };
       const paraNoticias = () => {
-        irPara('/Noticias');
+        irPara('/Noticias_adm');
       };
     const paraLoja = () => {
       irPara('/Loja');
