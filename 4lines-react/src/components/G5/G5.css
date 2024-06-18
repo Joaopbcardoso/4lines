@@ -1,0 +1,35 @@
+.g5 {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding: 10px;
+    width: 200px;  /* Define a largura da tabela */
+    color: black;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.position:last-child {
+    border-bottom: none;
+}
+
+.rank {
+    font-size: 1em;
+    font-weight: bold;
+    width: 20%;
+}
+.rank:hover{
+    background-color: #F58A07;
+}
+
+.team {
+    font-size: 1em;
+    width: 80%;
+    text-align: left;
+}

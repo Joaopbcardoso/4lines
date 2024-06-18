@@ -1,0 +1,55 @@
+
+.tabela-placares {
+    width: 25vw;  /* Diminuir a largura da tabela */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;  /* Ajustar margem para melhor posicionamento */
+}
+
+.match {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;  /* Diminuir o padding */
+    text-align: center;
+}
+
+.match:last-child {
+    border-bottom: none;
+}
+
+.league {
+    font-size: 1em;  /* Diminuir o tamanho da fonte */
+    margin-bottom: 5px;  /* Ajustar margem inferior */
+    font-weight: bold;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;  /* Diminuir o tamanho da fonte */
+}
+
+.team {
+    width: 30%;
+}
+
+.score {
+    width: 40%;
+    font-size: 1.1em;  /* Diminuir o tamanho da fonte */
+    font-weight: bold;
+}
+
+.match:nth-child(odd) {
+    background-color: #ffffff;
+}
+.match:nth-child(odd):hover{
+    background-color: #F58A07;
+}
+
+.match:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.match:nth-child(even):hover{
+    background-color: #F58A07;
+}

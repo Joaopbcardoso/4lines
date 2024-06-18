@@ -1,3 +1,5 @@
+import G5 from "./G5/G5";
+
 export default function FutebolContent(){
     return(
         <main>
@@ -9,7 +11,7 @@ export default function FutebolContent(){
                 <div className="melhores">
                     <section className="info-content">
                         <h2>G5</h2>
-                        <img src="g5.png" alt="" />
+                        <G5 />
                     </section>
                     <section className="info-content">
                         <h2>Artilharia</h2>

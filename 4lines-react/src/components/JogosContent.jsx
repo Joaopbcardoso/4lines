@@ -1,4 +1,5 @@
 import TabelaBrasileirao from "../components/TabelaBrasileirao";
+import TabelaJogos from "./jogos/TabelaJogos";
 
 export default function JogosContent(){
     return(
@@ -12,7 +13,7 @@ export default function JogosContent(){
             <TabelaBrasileirao/>
                 </div>
                 <div>
-                    <img className="partidas" src="partidas.png" alt="" />
+                    <TabelaJogos/>
                 </div>
             </div>
         </main>
