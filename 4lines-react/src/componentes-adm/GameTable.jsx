@@ -30,4 +30,4 @@ const GameTable = () => (
   </table>
 );
 }
-
+//cesar
