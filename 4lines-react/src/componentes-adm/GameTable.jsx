@@ -30,9 +30,3 @@ const GameTable = () => (
   </table>
 );
 }
-//cesar
-//asdhuadhusda
-//asdbsdah
-
-
-<h1>asd</h1>
