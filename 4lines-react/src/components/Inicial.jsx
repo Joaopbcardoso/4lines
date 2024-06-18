@@ -21,6 +21,7 @@ export default function Inicial(){
     };
     return(
         <main>
+        <h1>oi</h1>
             <div className="info-principal">
                 <div className="campeonato">
                     <h2 className="tabela-title">Placares</h2>
