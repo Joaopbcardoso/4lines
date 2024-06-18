@@ -5,7 +5,7 @@ export default function CadastroAdm(){
     return(
         <Cadastrar 
         loginType={"/log-adm"}
-        cadastroType = {"/CadastroAdm"} //Legal
+        cadastroType = {"/CadastroAdm"} //Legal asdmsdfk
         />
     )
 }
