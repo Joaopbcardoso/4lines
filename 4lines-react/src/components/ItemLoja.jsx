@@ -7,7 +7,7 @@ export default function ItemLoja(){
             <p>Descrição do Produto</p>
             <p>Preço: R$ 100,00</p>
             <button>Comprar</button>
-        </div> //JO
+        </div> //JOGA
    
     )
 }
