@@ -25,3 +25,4 @@ export default function cadastrar({loginType}){
         </section>
     )
 }
+<h1>asd</h1>

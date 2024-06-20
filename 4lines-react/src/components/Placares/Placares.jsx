@@ -4,19 +4,19 @@ export default function Placares(){
     return(
         <div class="tabela-placares">
         <div class="match">
-            <div class="league">Campeonato Brasileiro - Série C</div>
+            <div class="league">Campeonato Brasileiro - Série A</div>
             <div class="teams">
-                <span class="team">Figueirense</span>
-                <span class="score">2 - 1</span>
-                <span class="team">FAC</span>
+                <span class="team">Internacional</span>
+                <span class="score">1 - 0</span>
+                <span class="team">Corintihias</span>
             </div>
         </div>
         <div class="match">
-            <div class="league">Campeonato Catarinense</div>
+            <div class="league">Campeonato Brasileiro - Série B</div>
             <div class="teams">
-                <span class="team">Figueirense</span>
-                <span class="score">1 - 3</span>
-                <span class="team">Barra</span>
+                <span class="team">Fortaleza</span>
+                <span class="score">1 - 0</span>
+                <span class="team">Gremio</span>
             </div>
         </div>
         <div class="match">
